@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 25.8.4.2 (Linux)"/>
+	<meta name="created" content="00:00:00"/>
+	<meta name="changed" content="00:00:00"/>
+	<style type="text/css">
+		@page { size: 8.27in 11.69in; margin: 0.79in }
+		p { margin-bottom: 0.1in; line-height: 115%; background: transparent }
+		pre { font-size: 10pt; font-family: "Liberation Mono", monospace; background: transparent }
+	</style>
+</head>
+<body lang="en-US" link="#000080" vlink="#800000" dir="ltr"><pre>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Sorry Chohuu ❤️&lt;/title&gt;
+
+    &lt;style&gt;
+        body {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            color: white;
+            overflow: hidden;
+            background: linear-gradient(to right, #ff758c, #ff7eb3);
+        }
+
+        h1 {
+            margin-top: 80px;
+            font-size: 45px;
+        }
+
+        p {
+            font-size: 20px;
+            width: 80%;
+            margin: auto;
+            margin-top: 20px;
+        }
+
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #ff4d6d;
+            border: none;
+            border-radius: 10px;
+            color: white;
+            cursor: pointer;
+            margin-top: 30px;
+        }
+
+        button:hover {
+            background-color: #e63950;
+        }
+
+        /* Hearts animation */
+        .heart {
+            position: fixed;
+            bottom: -10px;
+            color: red;
+            font-size: 20px;
+            animation: float 5s linear infinite;
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0); opacity: 1; }
+            100% { transform: translateY(-100vh); opacity: 0; }
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+
+    &lt;h1&gt;I'm Sorry Chohuu ❤️&lt;/h1&gt;
+
+    &lt;p&gt;
+        Hey Soha (meri Chohuu) ❤️  
+        mujhe pata hai maine tujhe hurt kiya... 😔  
+        par tu mere liye bohot important hai.  
+        main sach me sorry hoon aur bas itna chahta hoon  
+        ki tu ek baar muskura de... 🥺❤️  
+    &lt;/p&gt;
+
+    &lt;button onclick=&quot;showMessage()&quot;&gt;Click here ❤️&lt;/button&gt;
+
+    &lt;p id=&quot;msg&quot; style=&quot;font-size:22px;&quot;&gt;&lt;/p&gt;
+
+    &lt;script&gt;
+        function showMessage() {
+            document.getElementById(&quot;msg&quot;).innerHTML =
+            &quot;Please maan ja na meri Chohuu 🥺❤️ I really love you!&quot;;
+        }
+
+        // Hearts animation
+        setInterval(() =&gt; {
+            let heart = document.createElement(&quot;div&quot;);
+            heart.className = &quot;heart&quot;;
+            heart.innerHTML = &quot;❤️&quot;;
+            heart.style.left = Math.random() * 100 + &quot;vw&quot;;
+            heart.style.fontSize = (Math.random() * 20 + 10) + &quot;px&quot;;
+            document.body.appendChild(heart);
+
+            setTimeout(() =&gt; {
+                heart.remove();
+            }, 5000);
+        }, 300);
+    &lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</pre>
+</body>
+</html>
